@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav_wrapper {
+  width: 1440px;
+  height: 530px;
+
+  margin: 50px auto;
+}
+
+.nav_title {
+  /* Explore */
+
+  width: 65px;
+  height: 15px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.nav_glav_title {
+  /* Explore */
+
+  width: 65px;
+  margin-left: 560px;
+  height: 15px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.nav_title_box {
+  display: flex;
+}
+
+.nav_glav_text {
+  /* My Cart */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  margin-left: 600px;
+
+  color: #000000;
+}
+
+.glav_phone {
+  background-image: url("./img/glav_phone.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1440px;
+  margin-top: 15px;
+  height: 504px;
+}
+
+.phone_title {
+  /* The Desk Shelf System */
+
+  width: 440px;
+  height: 46px;
+  margin: auto;
+
+  padding: 135px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 46px;
+  /* identical to box height, or 107% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.phone_text {
+  /* Available in Walnut or Maple */
+
+  width: 211px;
+  height: 18px;
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  color: #ffffff;
+}
+
+.head_wrapper {
+  width: 1440px;
+  height: 900px;
+
+  margin: auto;
+}
+.head_glav_title {
+  /* Design Inspires */
+
+  width: 297px;
+  height: 58px;
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 58px;
+  /* identical to box height, or 135% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.glav_text {
+  /* Build your dream workspace, so you can get your best work done. */
+
+  width: 481px;
+  height: 24px;
+
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  letter-spacing: 0.8px;
+  padding: 15px 0;
+  color: #a0a0a0;
+}
+
+.glav_mini_title {
+  /* GET STARTED */
+
+  width: 100px;
+  margin: auto;
+  height: 21px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.head_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head_left,
+.head_right {
+  margin-top: 50px;
+}
+
+.left_title {
+  margin: auto;
+  margin-top: 15px;
+  width: 128px;
+  height: 30px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  /* identical to box height, or 111% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.left_title1 {
+  width: 177px;
+  height: 30px;
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  /* identical to box height, or 111% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.left_text {
+  margin-left: 278px;
+}
+
+.left_text1 {
+  margin-left: 278px;
+}
+
+.tex {
+  width: 310.25px;
+  height: 493.73px;
+}
+
+.main_wrapper {
+  margin: auto;
+  width: 1445px;
+
+  height: 700px;
+}
+
+.main_title {
+  /* Featured Products */
+
+  width: 276px;
+  height: 36px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 36px;
+  /* identical to box height, or 109% */
+  text-align: center;
+
+  margin: auto;
+  padding: 15px;
+  color: #000000;
+}
+
+.main_text {
+  /* See What’s Trending Right Now */
+  margin: auto;
+  width: 230px;
+  height: 18px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  color: #a0a0a0;
+}
+
+.main_glav_box {
+  display: flex;
+  gap: 50px;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.main_right {
+  display: flex;
+  gap: 50px;
+}
+
+.main_left_text {
+  /* Walnut MagSafe Stand */
+  padding: 15px 0;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  /* identical to box height, or 162% */
+  letter-spacing: 0.7px;
+
+  color: #a0a0a0;
+}
+
+.main_mini_box {
+  /* Rectangle */
+
+  width: 7px;
+  height: 7px;
+
+  background: #000000;
+}
+
+.asd_phone {
+  background-image: url("./img/asd_phone.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1440px;
+  height: 504px;
+}
+
+.text_btn {
+  /* LEARN MORE */
+
+  width: 95px;
+  height: 15px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.asd_title {
+  /* Home Office Inspiration */
+
+  width: 699px;
+  height: 70px;
+  margin: auto;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  padding: 25px 0;
+  font-size: 66px;
+  line-height: 70px;
+  /* identical to box height, or 106% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.asd_text {
+  /* Working from home can be a challenge—see some creative solutions to get it just right. */
+
+  width: 643px;
+  height: 16px;
+  margin: auto;
+  padding: 25px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  color: #ffffff;
+}
+
+.asd_wrapper {
+  width: 1440px;
+  height: 504px;
+
+  margin: 170px auto;
+}
+
+.text_btn {
+  margin: auto;
+  padding: 25px 0;
+}
+.art_title {
+  padding: 20px 0;
+  /* Make Work Meaningful */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  /* identical to box height, or 106% */
+  text-align: center;
+
+  color: #000000;
+}
+.art_text {
+  padding: 20px 0;
+
+  width: 777px;
+  margin: auto;
+  height: 72px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  color: #a0a0a0;
+}
+
+.image1 {
+  margin-left: 550px;
+}
+
+.footer_wrapper {
+  width: 1365px;
+  height: 1193.38px;
+  top: 3841.28px;
+  left: 37.5px;
+  gap: 0px;
+  opacity: 0px;
+
+  margin: 50px auto;
+}
+
+.img_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_title {
+  /* We Hope You'll Join Us */
+
+  width: 351px;
+  height: 36px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  padding: 25px 0;
+  margin: auto;
+  line-height: 36px;
+  /* identical to box height, or 106% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.footer_text {
+  /* READ MORE ABOUT OUR STORY */
+  width: 233px;
+  height: 21px;
+  padding: 25px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin: auto;
+  line-height: 21px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.last_wrapper {
+  /* Rectangle */
+
+  width: 1340px;
+  height: 404px;
+  margin: 50px auto;
+  background: #9aa8b1;
+  border-radius: 0px;
+}
+
+.last_title {
+  /* Design Inspires */
+  width: 297px;
+  height: 58px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+
+  margin: auto;
+  padding: 100px 0;
+  font-size: 43px;
+  line-height: 58px;
+  margin-top: 50px;
+  /* identical to box height, or 135% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.last_Text {
+  margin: auto;
+  width: 481px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  letter-spacing: 0.8px;
+
+  color: #ffffff;
+}
+
+.info_wrapper {
+  width: 1440px;
+  height: 468px;
+ margin-left: 400px;
+ margin-top: 200px;
+ 
+}
+
+.info_left {
+  padding: 50px 5px;
+}
+
+.info_link {
+  /* About */
+  width: 60px;
+  height: 24px;
+  padding: 30px 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  /* identical to box height, or 109% */
+
+  color: #000000;
+}
+
+.info_title {
+  /* Newsletter Signup */
+
+  width: 184px;
+  height: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  /* identical to box height, or 109% */
+
+  color: #000000;
+}
+
+.info_text {
+  /* Sign up to our Newsletter to hear about new product releases, learn about our design process, and everything else going on behind the scenes at Grovemade. */
+
+  width: 348px;
+  height: 64px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+
+  color: #a0a0a0;
+}
+
+.info_box {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.last_p_box{
+  display: flex;
+  gap: 50px;
+  margin-left: 750px;
+  margin-top: 45px;
+}
